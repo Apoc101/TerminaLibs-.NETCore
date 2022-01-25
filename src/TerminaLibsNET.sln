@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.32112.339
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerminaLibsNET", "TerminaLibsNET\TerminaLibsNET.csproj", "{D867B909-1F40-4D0F-8A1F-A9CE116A2D72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerminaLibsNET", "TerminaLibsNET\TerminaLibsNET.csproj", "{EB58B275-28BB-49A2-A839-2CC3BFE4BB4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D867B909-1F40-4D0F-8A1F-A9CE116A2D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D867B909-1F40-4D0F-8A1F-A9CE116A2D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D867B909-1F40-4D0F-8A1F-A9CE116A2D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D867B909-1F40-4D0F-8A1F-A9CE116A2D72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB58B275-28BB-49A2-A839-2CC3BFE4BB4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB58B275-28BB-49A2-A839-2CC3BFE4BB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB58B275-28BB-49A2-A839-2CC3BFE4BB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB58B275-28BB-49A2-A839-2CC3BFE4BB4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D47E589F-EE55-4795-8D55-331B5BD6CB0A}
+		SolutionGuid = {62175431-4625-487A-8A96-553289BF03BC}
 	EndGlobalSection
 EndGlobal

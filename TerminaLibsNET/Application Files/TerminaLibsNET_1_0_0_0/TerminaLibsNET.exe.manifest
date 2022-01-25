@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TerminaLibsNET.exe" version="1.0.0.0" publicKeyToken="e1aff0df9629182f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TerminaLibsNET" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TerminaLibsNET.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TerminaLibsNET.exe" size="13784">
+      <assemblyIdentity name="TerminaLibsNET" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xWxHBcV9U6WnWRivv/MweXf9Z57CvsDDtnuAA5iCOTs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TerminaLibsNET.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NUNYABUSINESS\gabri" issuerKeyHash="72e93cca2ede7044e894900b2a5afecf345c2519" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>PkIslVp5CJNI/VeLyLo0DgGMWrhkVPGQZ3RvXLbMwtk=</DigestValue></Reference></SignedInfo><SignatureValue>rfnCdQQ7oU2Vch/QVryPt9HXdfD+Fesek026c9dkIDaqENub1Nl0stDonL+PNJdvnbclTn5qBsfQQGH/GwKDJ5nzg3XOPCSmr56BtmGukYj2y+YMGQmiOmc7dslbQ/6RoIUGTKplF8a9su0lbmqqbIZW+Z/mdWcfbIcqzh0jwQg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>weYknZYtVunHowJCQZxX4UT/uJXHktZKXbX8DCcf4iyxHJdz8H1vwwYw1s0IMJ+MY62BLXVsG08QEK6qKaS8GfyzFYhW9gPjrrC9xc4ki0iCjuHE+q8UtSfjAROXUAxFFsTLMSW68sOKHN+4Anc2C7+Kzz8fHDbrNzisa4UMUbE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d9c2ccb65c6f746790f15464b85a8c010e34bac88b57fd489308795a952c423e" Description="" Url=""><as:assemblyIdentity name="TerminaLibsNET.exe" version="1.0.0.0" publicKeyToken="e1aff0df9629182f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NUNYABUSINESS\gabri</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wtEJr6uCN5SGyD0vn2817bZOSqSNfnA6diKUcK7IVLs=</DigestValue></Reference></SignedInfo><SignatureValue>oYMY22CwB8FoI7d4mcvobpUFYxIpUNy63mNv7oFSwTRDVcOOLZY14EFpd3E2dX2PBhhXrHHP6n+O3wQnPkgFsix5MPey8Hhjxne9NojC2NZKNjKxGD6fm7b9KogGNy0ZRFM5dgujlK+I0Ne+z9MGpWx1uEs1P6AKspx1jTV+Xp8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>weYknZYtVunHowJCQZxX4UT/uJXHktZKXbX8DCcf4iyxHJdz8H1vwwYw1s0IMJ+MY62BLXVsG08QEK6qKaS8GfyzFYhW9gPjrrC9xc4ki0iCjuHE+q8UtSfjAROXUAxFFsTLMSW68sOKHN+4Anc2C7+Kzz8fHDbrNzisa4UMUbE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQVrfgoHqJHr1AETpfmzKrwzANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYATgBVAE4AWQBBAEIAVQBTAEkATgBFAFMAUwBcAGcAYQBiAHIAaTAeFw0yMjAxMjUyMjQ3NDdaFw0yMzAxMjYwNDQ3NDdaMDExLzAtBgNVBAMeJgBOAFUATgBZAEEAQgBVAFMASQBOAEUAUwBTAFwAZwBhAGIAcgBpMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDB5iSdli1W6cejAkJBnFfhRP+4lceS1kpdtfwMJx/iLLEcl3PwfW/DBjDWzQgwn4xjrYEtdWwbTxAQrqoppLwZ/LMViFb2A+OusL3FziSLSIKO4cT6rxS1J+MBE5dQDEUWxMsxJbryw4oc37gCdzYLv4rPPx8cNus3OKxrhQxRsQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAKNu1GTXRhqUwzaG7pd4sg94P12RTWVXHOIFhCuQuCHiC9k36aqOlp50QEvF8m6NqVacNUiSGlD7U0KpJcbS1eDACddDx6lGl6uckbRpTzHSlvyqOWUZTbXP7vGSl3SF3PAXVm4nOJAG5rhhBbQt4n3gaMcgM3NPOiKRhBCHgAcI</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

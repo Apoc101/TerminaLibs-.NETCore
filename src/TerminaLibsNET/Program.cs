@@ -15,6 +15,7 @@ namespace Madlibs
             // -Gabriel
 
             Console.WriteLine("Welcome to TerminaLibs!");
+            // Removed thread.sleep since .NET framework 4.7 doesn't support it natively
             Console.WriteLine("\nSelect an option: \n'r' for random \n's' for select \n'n' for new\n ");
             string answer = Console.ReadLine();
             while (answer != "r" && answer != "s" && answer != "n")
@@ -216,7 +217,6 @@ namespace Madlibs
                     catch (FormatException)
                     {
                         Console.WriteLine($"\nUnable to parse '{answerS}'. Please make sure to enter a number next time.");
-                        System.Environment.Exit(1); //couldn't find a way to relaunch function without GOTO: 
                     }
 
 
@@ -225,7 +225,6 @@ namespace Madlibs
             else if (answer == "n")
             {
                 Console.WriteLine("\nGoodbye!");
-                System.Environment.Exit(0); //0 = successful
             }
         }
     }
