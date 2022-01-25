@@ -1,0 +1,8 @@
+C:\Users\Gabriel\Documents\GitHub\TerminaLibs-.NETFramework\TerminaLibsNET\TerminaLibsNET\bin\Debug\TerminaLibsNET.exe.config
+C:\Users\Gabriel\Documents\GitHub\TerminaLibs-.NETFramework\TerminaLibsNET\TerminaLibsNET\bin\Debug\TerminaLibsNET.exe
+C:\Users\Gabriel\Documents\GitHub\TerminaLibs-.NETFramework\TerminaLibsNET\TerminaLibsNET\bin\Debug\TerminaLibsNET.pdb
+C:\Users\Gabriel\Documents\GitHub\TerminaLibs-.NETFramework\TerminaLibsNET\TerminaLibsNET\obj\Debug\TerminaLibsNET.csproj.AssemblyReference.cache
+C:\Users\Gabriel\Documents\GitHub\TerminaLibs-.NETFramework\TerminaLibsNET\TerminaLibsNET\obj\Debug\TerminaLibsNET.csproj.SuggestedBindingRedirects.cache
+C:\Users\Gabriel\Documents\GitHub\TerminaLibs-.NETFramework\TerminaLibsNET\TerminaLibsNET\obj\Debug\TerminaLibsNET.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Documents\GitHub\TerminaLibs-.NETFramework\TerminaLibsNET\TerminaLibsNET\obj\Debug\TerminaLibsNET.exe
+C:\Users\Gabriel\Documents\GitHub\TerminaLibs-.NETFramework\TerminaLibsNET\TerminaLibsNET\obj\Debug\TerminaLibsNET.pdb
