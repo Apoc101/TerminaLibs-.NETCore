@@ -1,4 +1,4 @@
-# TerminaLibsNET
+# TerminaLibsCore
 TerminaLibs but no .NET 6 requirement
 
 ## If you use MacOS/Linux, this will NOT work, since it's a setup file published in .exe
