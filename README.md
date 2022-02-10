@@ -7,3 +7,5 @@ TerminaLibs but no .NET 6 requirement
 
 This is still a bit buggy, since it's running .NET 4.7, so a few features like the custom madlib are broken, but I'm working on it. 
 Report any bugs in the ``Issues`` section please :) 
+
+(some of the files may be called "TerminaLibsNET", since it was the original project name, but after some consideration I decided to change it)
