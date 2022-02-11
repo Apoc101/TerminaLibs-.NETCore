@@ -1,5 +1,5 @@
 # TerminaLibsCore
-TerminaLibs but there's no .NET 6 SDK requirement
+TerminaLibs but there's no .NET 6.0 SDK requirement
 
 ## If you use MacOS/Linux, this will NOT work, since it's a setup file published in .exe (CLR is funny)
 ### And I recommend you go check out the original repo.
